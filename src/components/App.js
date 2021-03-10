@@ -28,3 +28,39 @@ function App() {
     );
 }
 export default App;
+
+
+import List1 from "./components/List1";
+import List2 from "./components/List2";
+
+function App() {
+    const example1 = ["Apple", "Lemon", "Kivi"];
+    const example2 = ["Potato", "Cabbage", "Morkov"];
+    return (
+        <div className="App">
+            <List items={example1} />
+            <List items={example2} />
+        </div>
+    );
+    
+};
+export default App;
+
+
+import Person from "./components/Person";
+import "./App.css";
+
+function App() {
+    return (
+        <div className="App">
+            <Person name ="Bill Baike" age={47}>
+                Ice skating, Eating donuts, Dancing under the moon
+            </Person>
+            <Person name="Bill Baike" age={50}>
+            Saving the world
+            </Person>
+        </div>
+    );
+}
+
+exort default App;
