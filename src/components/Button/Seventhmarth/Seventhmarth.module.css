@@ -1,7 +1,8 @@
 .Seventhmarth {
-    margin-left: 10px;
+    padding: 10px;
     width: 50px;
     height: 20px;
-    background-color: aqua;
-    border-radius: 50px;
+    background-color: tomato;
+    color: black;
+    border: tomato solid 1px;
 }

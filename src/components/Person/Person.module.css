@@ -1,21 +1,8 @@
 .Person {
-    box-Shadow: 0 0 10px black;
-    border-radius: 10px;
+    box-shadow: black;
+    border-radius: 15px;
     padding: 15px;
-    padding-top: 5px;
-    margin: 10px;
-    display: inline-block;
-    width: 200px;
-}
-
-.age {
-    color: tomato;
-}
-
-.name{
-    text-decoration: underline;
-}
-
-.hobby{
-    text-decoration: underline;
+    margin: 15px;
+    padding-top: 15px;
+    flex: 1 0 33%;
 }

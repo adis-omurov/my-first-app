@@ -1,14 +1,10 @@
 import classes from "./Person.module.css";
 
-
-const Person = ({ name, age, children }) => {
-    return (<div calssName={childrenlasses.Person}>
-        <h2>{ name }</h2>
-    <h4 className={classes.age}>{ age } years old</h4>
-    <h5>{ children }</h5>
-    <span className="highlight">Hello</span>
-        </div>);
+const Person = ({ name, role, wpm, commits }) => {
+    return (
+        <div className={classes.Person}></div>
+    <div className={classes.name}>{name}</div>
+    <div className={classes.role}>{role}</div>
+    <div className={classes.wpm}>{wpm}</div>
+    );
 }
-
-
-export default Person;

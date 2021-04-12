@@ -47,10 +47,16 @@ function App() {
 export default App;
 
 
-import Person from "./components/Person";
+import Person from "./components/Person/Person";
 import "./App.css";
+import Personlist from "./components/PersonList/PersonList";
 
 function App() {
+  const person = [
+    { name: "Elon Baike", age: 47, hobby: "Space" }
+    { name: "Bill Baike", age: 50, hobby: "Cars"}
+  ];
+
     return (
         <div className="App">
             <Person name ="Bill Baike" age={47}>
@@ -64,3 +70,7 @@ function App() {
 }
 
 exort default App;
+
+
+const output = person
+
