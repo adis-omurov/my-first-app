@@ -1,17 +1,11 @@
-import { Route } from "react-router"
-import App from "./App";
-import About from "./components/Contacts/Contacts";
+import classes from "./Contacts.module.css";
 
-function Contacts() {
+const Contacts = () => {
     return (
-        <div className="Contacts">
-         <Switch>
-         <Route exact path="/" componets={Home} />
-         <Route path="/about" componets={About} />
-         <Route path="/contacts" componets={Contacts} />
-         </Switch>
+        <div className={classes.Contacts}>
+            <h1>Market</h1>
         </div>
     );
 }
 
-export default App;
+export default Contacts;

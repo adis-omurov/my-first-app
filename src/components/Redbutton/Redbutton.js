@@ -1,7 +1,11 @@
-import classes from "./Redbutton.module.css";
-const Redbutton = ({children}) => {
-    return ( <div>
-        <button className={classes.button}>{children}</button>
-    </div>)
+import classes from "./RedButton.module.css";
+
+const RedButton = () => {
+    return (
+        <div className={classes.RedButton}>
+            <h1>Market</h1>
+        </div>
+    );
 }
-export default Redbutton;
+
+export default RedButton;

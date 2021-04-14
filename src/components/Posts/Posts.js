@@ -1,13 +1,11 @@
-import PostList from "./PostList/PostList"
-import PostList from "./PostFull/PostFull"
-import PostFull from "./reacct-router";
+import classes from "./Posts.module.css";
 
-const Posts = ({ match }) => {
+const Posts = () => {
     return (
-        <div>
-            <PostList></PostList>
-            <Route path="/posts/:id" compnent={PostFull} />
+        <div className={classes.Posts}>
+            <h1>Mini-Market</h1>
         </div>
     );
 }
+
 export default Posts;

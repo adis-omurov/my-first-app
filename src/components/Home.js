@@ -1,14 +1,11 @@
-import { Route } from "react-router"
-import About from "./components/Contacts/Contacts";
+import classes from "./Home.module.css";
 
-function Contacts() {
+const Home = () => {
     return (
-        <div className="Contacts">
-         This is Contacts.js
-         <Route path="/about" componets={Contacts} />
-         <Route path="/about" componets={Contacts} />
+        <div className={classes.Home}>
+            <h1>Magazine</h1>
         </div>
     );
 }
 
-export default Contacts;
+export default Home;
